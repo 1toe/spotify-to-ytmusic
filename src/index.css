@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body {
+	background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+	min-height: 100vh;
+	font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Mobile-first adjustments */
+.max-w-3xl {
+	max-width: 100vw;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+@media (min-width: 640px) {
+	.max-w-3xl {
+		max-width: 36rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+/* Eliminar cualquier rastro visual de Vite */
+code {
+	background: #e0e7ff;
+	color: #3730a3;
+	border-radius: 0.25rem;
+	padding: 0.1em 0.4em;
+	font-size: 0.95em;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}

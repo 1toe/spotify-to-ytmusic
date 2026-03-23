@@ -1,0 +1,5 @@
+{
+  "name": "CSV Album Extractor",
+  "description": "Extracts albums and artists from a CSV file and formats them for easy copying.",
+  "requestFramePermissions": []
+}
